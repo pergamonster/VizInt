@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{19CC3DDD-0ED9-4C27-9F47-9E596F37AE27}</ProjectGuid>
-    <OutputType>library</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VizInt</RootNamespace>
     <AssemblyName>VizInt.View</AssemblyName>
@@ -51,31 +51,34 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Deedle">
-      <HintPath>packages\Deedle.0.9.12\lib\net40\Deedle.dll</HintPath>
+      <HintPath>..\packages\Deedle.0.9.12\lib\net40\Deedle.dll</HintPath>
     </Reference>
     <Reference Include="Deedle.RProvider.Plugin">
-      <HintPath>packages\Deedle.RPlugin.0.9.12\lib\net40\Deedle.RProvider.Plugin.dll</HintPath>
+      <HintPath>..\packages\Deedle.RPlugin.0.9.12\lib\net40\Deedle.RProvider.Plugin.dll</HintPath>
     </Reference>
     <Reference Include="FSharp.Data">
-      <HintPath>packages\FSharp.Data.1.1.10\lib\net40\FSharp.Data.dll</HintPath>
+      <HintPath>..\packages\FSharp.Data.1.1.10\lib\net40\FSharp.Data.dll</HintPath>
     </Reference>
     <Reference Include="FSharp.Data.DesignTime">
-      <HintPath>packages\FSharp.Data.1.1.10\lib\net40\FSharp.Data.DesignTime.dll</HintPath>
+      <HintPath>..\packages\FSharp.Data.1.1.10\lib\net40\FSharp.Data.DesignTime.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="RDotNet">
-      <HintPath>packages\R.NET.1.5.5\lib\net40\RDotNet.dll</HintPath>
+      <HintPath>..\packages\R.NET.1.5.5\lib\net40\RDotNet.dll</HintPath>
     </Reference>
     <Reference Include="RDotNet.FSharp">
-      <HintPath>packages\RDotNet.FSharp.0.1.2.1\lib\net40\RDotNet.FSharp.dll</HintPath>
+      <HintPath>..\packages\RDotNet.FSharp.0.1.2.1\lib\net40\RDotNet.FSharp.dll</HintPath>
     </Reference>
     <Reference Include="RDotNet.NativeLibrary">
-      <HintPath>packages\R.NET.1.5.5\lib\net40\RDotNet.NativeLibrary.dll</HintPath>
+      <HintPath>..\packages\R.NET.1.5.5\lib\net40\RDotNet.NativeLibrary.dll</HintPath>
     </Reference>
     <Reference Include="RProvider">
-      <HintPath>packages\RProvider.1.0.5\lib\RProvider.dll</HintPath>
+      <HintPath>..\packages\RProvider.1.0.5\lib\RProvider.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
